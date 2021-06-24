@@ -37,6 +37,7 @@ public class FinalResult extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), QuizCategory.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -75,5 +76,12 @@ public class FinalResult extends AppCompatActivity {
         highScore = sharedPreferences.getInt(SHARED_PREFERENCE_HIGH_SCORE,0);
         highScoretxt.setText("High Score : "+ String.valueOf(highScore));
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(FinalResult.this,QuizCategory.class));
+        finish();
+        super.onBackPressed();
     }
 }

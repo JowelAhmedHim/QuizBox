@@ -56,21 +56,25 @@ public class QuizCategory extends AppCompatActivity implements View.OnClickListe
                 Intent intentBangla = new Intent(QuizCategory.this, MainActivity.class);
                 intentBangla.putExtra("Category", Constains.BANGLA);
                 startActivity(intentBangla);
+                finish();
                 break;
             case R.id.english_card:
                 Intent intentEnglish = new Intent(QuizCategory.this,MainActivity.class);
                 intentEnglish.putExtra("Category",Constains.ENGLISH);
                 startActivity(intentEnglish);
+                finish();
                 break;
             case R.id.gScience_card:
                 Intent intentMath = new Intent(QuizCategory.this,MainActivity.class);
                 intentMath.putExtra("Category",Constains.GSCIENCE);
                 startActivity(intentMath);
+                finish();
                 break;
             case R.id.computer_card:
                 Intent intentScience = new Intent(QuizCategory.this,MainActivity.class);
                 intentScience.putExtra("Category",Constains.MATH);
                 startActivity(intentScience);
+                finish();
                 break;
 
         }
@@ -104,6 +108,7 @@ public class QuizCategory extends AppCompatActivity implements View.OnClickListe
             case R.id.about:
                 Intent intent = new Intent(QuizCategory.this, AboutActivity.class);
                 startActivity(intent);
+                finish();
         }
         return super.onOptionsItemSelected(item);
     }

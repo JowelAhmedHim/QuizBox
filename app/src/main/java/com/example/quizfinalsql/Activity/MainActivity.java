@@ -455,6 +455,7 @@ public class MainActivity extends AppCompatActivity {
         resultdata.putExtra("CorrectAnswer",correctans);
         resultdata.putExtra("WrongAnswer",wrongans);
         startActivity(resultdata);
+        finish();
 
     }
 
