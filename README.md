@@ -46,6 +46,16 @@ width="200"
 
 - No permission needed
 
+## Author
+
+**Jowel Ahmed Him**
+
+- [Profile](https://github.com/JowelAhmedHim)
+- [Email](mailto:jowelahmedhim@gmail.com?subject=Hi "Hi!")
+- [Facebook](https://www.facebook.com/jowelahmedhim)
+- [LinkedIn](https://www.linkedin.com/in/jowelahmedhim/)
+- [Youtube](https://www.youtube.com/channel/UClDog-gMe4GC3lOhpX4P_Nw)
+
 
 ## Contributing
 
